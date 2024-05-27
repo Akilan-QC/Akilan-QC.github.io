@@ -283,6 +283,7 @@ nav .fa {
 	text-align: right;
 	z-index: 2;
 	transition: 1s;
+	opacity: 0.0;
 	}
 		nav .fa {
 	display: block;
