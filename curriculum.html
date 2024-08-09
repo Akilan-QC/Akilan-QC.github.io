@@ -1,134 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Akilan</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-	<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Akilan RAJAMANI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<section class="header">
-		<nav>
-			<a href="index.html"><img src="logo.jpg"></a>
-			<div class="nav-links" id="navLinks">
-				<i class="fa fa-times" onclick="hidemenu()"></i>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Log book</a></li>
+                    <li><a href="curriculum.html">Curriculum</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="codes.html">Codes</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box-CV">
+            <h1>Curriculum Vitae</h1>
 
-				<ul>
-					<li><a href="index.html">Log book</a> </li>
-					<li><a href="curriculum.html">Curriculum</a></li>
-					<li><a href="publications.html">Publications</a></li>
-					<li><a href="codes.html">Codes</a></li>
-				</ul>
+            <h2>Postdoc 3 (June 2024)</h2>
+            <p>
+                I recently joined ICGM UMR 5253, Montpellier as a postdoc, focusing on designing an optimal implementation of Q-DFT in quantum devices and integrating them into the BigDFT code.
+            </p>
 
-			</div>
-			<i class="fa fa-bars" onclick="showmenu()"></i>
-		</nav>
-	<div class="text-box-CV">
-		<h1> Curriculum Vitae</h1>
-		<h2>Postdoc 3 (June 2024)</h2>
-		<p>
-			I will be joining as a postdoc in ICGM UMR 5253, Montpelier. The primary job of the project will be
-			designing an optimal implementation of Q-DFT in quantum devices and implementing them in BigDFT code.
-		</p>
-		<h2> Postdoc 2 (May 2023 - April 2024)</h2>
-		<p>
-			I was engaged in a research project titled "Rebirth of Aromatic Cope Rearrangements",
-			under the guidance of Prof. Eric HENON in ICMR UMR 7312, URCA, Reims.
-			This project involved collaboration with two distinct
-			experimental groups. My work primarily revolved around utilizing quantum mechanical tools to investigate
-			the impact of metal catalysts, various solvents, and functional groups on reaction mechanisms.
-			Additionally, as a side endeavor, I was developing a promolecular density model that will be integrated
-			into IGMplot (a versatile quantum mechanics tool capable of identifying and quantifying molecular
-			interactions). Furthermore, I contributed to the implementation of Slater Type Orbitals (STO) within
-			the IGMplot framework. Lastly, I employed machine learning techniques to predict interaction energies using
-			descriptors derived from the promolecular density analysis.
-		</p>
-		<h2> Postdoc 1 (April 2021 - September 2022)</h2>
-		<p>
-			In my first postdoc, I was working on the heterogeneous reactions of Ozone and Sulphur dioxide on the
-			surface of atmospheric aerosols using molecular dynamics simulations (MD) and QM/MM approach. The project
-			was supervised by Prof. Celine TOUBIN and Dr. Denis DUFLOT in PhLAM UMR 8523, Universite de Lille.
-			During my one and a half
-			year of postdoctoral period in Lille, I also developed a graphical user interface with python (tkinter) and
-			bash scripts, that connects two programmes for calculating reaction rates.
-		</p>
-		<h2> PhD in Physics (November 2016 - January 2021)</h2>
-		<p>
-			I completed my PhD in January 2021 under the guidance of Dr. R. Shankar in department of Physics,
-			Bharathiar University, Coimbatore. My PhD
-			thesis is entitled "The First Principle and Quantum Chemical Modelling of Carbon, Boron,
-			Nitrogen and Silicon-Based Two-Dimensional Adsorbent Materials for Energy Harvesting
-			Applications". In my PhD, I worked on Boron, Carbon, Nitrogen and Silicon-based Two-Dimensional materials as
-			electrodes using Quantum chemical tools such as Gaussian, Quantum
-			espresso and VASP. Further, I studied the defects of structures, adsorption and diffusion
-			properties of Metal-ions, and molecules on the surface of electrodes. Furthermore, I also
-			studied the electronic properties (using electron density studies such as AIM and ELF) of
-			stacked Two-Dimensional materials and excited states using DFT and TD-DFT respectively. I
-			had collaboration with people who are working on Atmospheric chemistry, DNA-ligand
-			interaction, Drug delivery, DNA sensing, thermoelectric, supercapacitors and metal-ion
-			batteries, and our work is published in reputed journals.
-		</p>
-		<h2> M.Sc and B.Sc (June 2011 - April 2016)</h2>
-		<p>
-			I completed my M.Sc (Physics) and B.Sc (Physics) from St. Joseph's college, Trichy, TN, India. During my masters, I get
-			the opportunity to study classical mechanics, quantum mechanics, Thermodynamics, Electrodynamics,
-			Mathematical physics and Electronics. Further, I did master's project on "Structural and optical properties
-			of Tin and Fluorine doped Zinc oxide thin films by spin coating method".<br>
-			In my bachelor degree, I studied classical mechanics, physical chemistry, chemistry, Math and C++.
-		</p>
-		<h2> High School (June 2004 - April 2011)</h2>
-		<p>
-			I pursued my schooling from St. Antony's Higher secondary school, which is in my home village Kosavapatty in Dindigul
-			, TN, India.
-		</p>
-		<h3> Skills</h3>
-		<p>
-			I have solid experience with the following quantum chemistry codes: Gaussian, Quantum espresso and VASP. <br>
-			and molecular dynamics code: Gromacs. I have published at least one article using each of the mentioned codes.<br>
-			I have good experience with Python and bash scripting.
-			Moreover, I have more than eight years of experience in handling high performance computers (HPCs).
-		</p>
-		<h4> Awards</h4>
-		<p>
-			I was awarded senior research fellowship (SRF) by Council of Scientific and Industrial Research (CSIR), India
-		</p>
-		<h5> Events</h5>
-		<p>
-			Poster presentation: A Molecular Level Understanding of Atmospheric Aerosols (2022), LA, USA. <br>
-			work shop: SERB School on Advance materials (2020), IIT Goa. <br>
-			Poster presentation: Theoretical Chemistry Symposium (2019), BITS Pilani. <br>
-			work shop: School on Quantum Mechanics, Inter-University Accelerator Centre (2017), Delhi. <br>
-			work shop: Workshop on VASP, Hindustan University (2016), Chennai. <br>
-		</p>
-	</div>		<!-- Your content goes here -->
-	</section>
-	<section class="CVT">
-		<a href="my_page.html"><img src="akil.jpg"></a>
-		<h1>Akilan RAJAMANI</h1>
-		<p><em>Density functional theory</em></p>
-		<p><em>Molecular dynamics</em></p>
-		<p><em>Quantum chemistry in quantum computing</em></p>
-		<div class="CVT-links">
-			<p><a href="https://scholar.google.co.in/citations?user=x7Rqqs0AAAAJ&hl=en"><img src="GS_icon.jpg"></a>
-			<a href="https://in.linkedin.com/in/akilan-rajamani-949b39150"><img src="twitter.jpg"></a>
-			<a href="https://www.researchgate.net/profile/Rajamani-Akilan"><img src="rg.png"></a>
-			<a href="https://twitter.com/akil_rajamani?lang=en"><img src="link.jpg"></a>
-		</div>
+            <h2>Postdoc 2 (May 2023 - April 2024)</h2>
+            <p>
+                I engaged in a project titled "Rebirth of Aromatic Cope Rearrangements" under Prof. Eric HENON at ICMR UMR 7312, URCA, Reims. This involved collaboration with two experimental groups, using quantum mechanical tools to investigate the impact of metal catalysts, solvents, and functional groups on reaction mechanisms. Additionally, I developed a promolecular density model for IGMplot and contributed to the integration of Slater Type Orbitals (STO) within the IGMplot framework. I also applied machine learning techniques to predict interaction energies.
+            </p>
 
-	</section>
-<!----Java script------->
-<script>
-	var navLinks = document.getElementById("navLinks");
-	function showmenu() {
-		navLinks.style.right = "0";
-		navLinks.style.opacity = "1.0"
-	}
-		function hidemenu() {
-		navLinks.style.opacity = "0.0"
-		navLinks.style.right = "-200px";
-	}
-</script>
+            <h2>Postdoc 1 (April 2021 - September 2022)</h2>
+            <p>
+                In my first postdoc, I worked on the heterogeneous reactions of Ozone and Sulphur dioxide on atmospheric aerosol surfaces using molecular dynamics simulations and the QM/MM approach, under Prof. Celine TOUBIN and Dr. Denis DUFLOT at PhLAM UMR 8523, Université de Lille. During this period, I also developed a GUI with Python and Bash scripts to connect two programs for calculating reaction rates.
+            </p>
+
+            <h2>PhD in Physics (November 2016 - January 2021)</h2>
+            <p>
+                I completed my PhD under Dr. R. Shankar at Bharathiar University, Coimbatore. My thesis titled "The First Principle and Quantum Chemical Modelling of Carbon, Boron, Nitrogen, and Silicon-Based Two-Dimensional Adsorbent Materials for Energy Harvesting Applications" involved extensive work with quantum chemical tools such as Gaussian, Quantum Espresso, and VASP. My research included studying the defects, adsorption, and diffusion properties of Metal-ions and molecules on electrode surfaces, and the electronic properties of stacked 2D materials using DFT and TD-DFT.
+            </p>
+
+            <h2>M.Sc and B.Sc (June 2011 - April 2016)</h2>
+            <p>
+                I completed my M.Sc and B.Sc in Physics from St. Joseph's College, Trichy, TN, India. My master's project focused on "Structural and Optical Properties of Tin and Fluorine Doped Zinc Oxide Thin Films by Spin Coating Method." My bachelor's studies included classical mechanics, physical chemistry, mathematics, and C++ programming.
+            </p>
+
+            <h2>High School (June 2004 - April 2011)</h2>
+            <p>
+                I completed my schooling at St. Antony's Higher Secondary School in Kosavapatty, Dindigul, TN, India.
+            </p>
+
+            <h3>Skills</h3>
+            <p>
+                I have solid experience with quantum chemistry codes: Gaussian, Quantum Espresso, VASP, and molecular dynamics code Gromacs, with publications in each. I am proficient in Python and Bash scripting, with over eight years of experience managing high-performance computing (HPC) systems.
+            </p>
+
+            <h4>Awards</h4>
+            <p>
+                I was awarded the Senior Research Fellowship (SRF) by the Council of Scientific and Industrial Research (CSIR), India.
+            </p>
+
+            <h5>Events</h5>
+            <p>
+                <strong>Poster Presentation:</strong> International Symposium on Heterogeneous catalysts(ISHC-2024) (2024), Trieste, Italy.<br>
+                <strong>Poster Presentation:</strong> A Molecular Level Understanding of Atmospheric Aerosols (2022), LA, USA.<br>
+                <strong>Workshop:</strong> SERB School on Advanced Materials (2020), IIT Goa.<br>
+                <strong>Poster Presentation:</strong> Theoretical Chemistry Symposium (2019), BITS Pilani.<br>
+                <strong>Workshop:</strong> School on Quantum Mechanics, Inter-University Accelerator Centre (2017), Delhi.<br>
+                <strong>Workshop:</strong> VASP Workshop, Hindustan University (2016), Chennai.
+            </p>
+        </div>
+    </section>
+
+    <section class="CVT">
+        <a href="my_page.html"><img src="akil.jpg" alt="Akilan Rajamani"></a>
+        <h1>Akilan RAJAMANI</h1>
+        <p><em>Density functional theory</em></p>
+        <p><em>Molecular dynamics</em></p>
+        <p><em>Quantum chemistry in quantum computing</em></p>
+        <div class="CVT-links">
+            <p>
+                <a href="https://scholar.google.co.in/citations?user=x7Rqqs0AAAAJ&hl=en"><img src="GS_icon.jpg" alt="Google Scholar"></a>
+                <a href="https://in.linkedin.com/in/akilan-rajamani-949b39150"><img src="twitter.jpg" alt="LinkedIn"></a>
+                <a href="https://www.researchgate.net/profile/Rajamani-Akilan"><img src="rg.png" alt="ResearchGate"></a>
+                <a href="https://twitter.com/akil_rajamani?lang=en"><img src="link.jpg" alt="Twitter"></a>
+            </p>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+            navLinks.style.opacity = "1.0";
+        }
+
+        function hideMenu() {
+            navLinks.style.opacity = "0.0";
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
