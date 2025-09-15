@@ -223,6 +223,17 @@ nav .fa {
     .CVT p {
         font-size: 1rem;
     }
+	.text-box-pub ol {
+    list-style-type: decimal;    /* ensures numbers */
+    list-style-position: outside; /* keeps numbers in margin */
+    margin-left: 2rem;           /* spacing so numbers are visible */
+    padding-left: 1rem;          /* extra indentation */
+	}
+
+	.text-box-pub li {
+    margin-bottom: 1rem;         /* spacing between publications */
+    line-height: 1.6;            /* better readability */
+	}
 }
 
 @media (max-width: 480px) {
@@ -257,5 +268,17 @@ nav .fa {
     .CVT p {
         font-size: 0.875rem;
     }
+	.text-box-pub ol {
+    list-style-type: decimal;    /* ensures numbers */
+    list-style-position: outside; /* keeps numbers in margin */
+    margin-left: 2rem;           /* spacing so numbers are visible */
+    padding-left: 1rem;          /* extra indentation */
+	}
+
+	.text-box-pub li {
+    margin-bottom: 1rem;         /* spacing between publications */
+    line-height: 1.6;            /* better readability */
+	}
 }
+
 
