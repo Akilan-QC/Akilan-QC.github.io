@@ -139,7 +139,9 @@ nav img {
     width: 30px;
     margin-right: 10px;
 }
-
+.QLASS {
+    text-align: center;
+}
 .Q-DFT {
     text-align: center;
 }
@@ -260,6 +262,7 @@ nav .fa {
         font-size: 0.875rem;
     }
 }
+
 
 
 
